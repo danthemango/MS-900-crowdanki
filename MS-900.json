@@ -1,0 +1,2378 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "e4ff3b60-da8a-11ef-85da-30138b6cca3b",
+    "deck_config_uuid": "e4ff3b61-da8a-11ef-ac11-30138b6cca3b",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": false,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "e4ff3b61-da8a-11ef-ac11-30138b6cca3b",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [],
+            "fsrsParams5": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": false,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Microsoft::MS-900 Microsoft 365 Fundamentals",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "css": ".card {\n    font-family: arial;\n    font-size: 16px;\n    color: black;\n    background-color: white;\n}\n\n.why {\n\ttext-align: left;\n}\n\n.whyhead {\n\tfont-size: 14px;\n  color: grey;\n}",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 52491006524755178,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 1536336356575317065,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 7919522860828478872,
+                    "name": "Why",
+                    "ord": 2,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Microsoft - with why",
+            "originalId": 1737492874413,
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n{{#Why}}\n<hr id=why>\n\n<span class=why>\n<span class=whyhead>\nWhy?:\n</span>\n<br/><br/>{{Why}}\n</span>\n{{/Why}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -3450479385104043597,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: black;\n  background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Text",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>A company needs Microsoft productivity solutions for 500 employees with high-speed internet but not 100% uptime. Users must:</div><ul><li>Collaborate within documents and workbooks.</li><li>Create relational databases. Which solution should you recommend?</li></ul>",
+                "Microsoft 365 Enterprise",
+                "Relational databases can be created using Microsoft Access, available as a desktop-only application. Enterprise subscriptions allow for more than 300 employees, covering the 500 employee's requirement."
+            ],
+            "guid": "mNHwkBxZ?p",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>A company implements Microsoft 365.</div><div>The company needs to enable team leads to manage the tasks for team members.</div><div>You need to recommend a solution that meets the following requirements:</div><ul><li>Assign a task to multiple team members.</li><li>Manage tasks in a Calendar view.</li><li>Visualize the progress of individual and team tasks in a Charts view.</li></ul><div>Which Microsoft 365 app should you recommend?</div>",
+                "Microsoft Planner",
+                ""
+            ],
+            "guid": "t#*t3M6R)5",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>The company needs to implement a work management solution with the following requirements:</div><ul><li>Allow employees to organize shared tasks on Kanban boards.</li><li>Include support for timeline Gantt charts.</li><li>Integrate with Microsoft Teams and Power BI Desktop.</li></ul>",
+                "Microsoft Project",
+                "MS Project has Gantt charts"
+            ],
+            "guid": "iv-tE:STz!",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>The company needs to implement a task management solution that includes the following requirements:</div><ul><li>Allow employees to organize their tasks on a Kanban board.</li><li>Integrate with Microsoft Outlook and Teams.</li><li>Support the use of @mentions in Microsoft Word, Excel, and PowerPoint files for task assignments.</li></ul>",
+                "Microsoft Planner",
+                ""
+            ],
+            "guid": "kc!ggOZ!mP",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Name TWO solutions that meets the company's requirements:</div><ul><li>Communicate with chat, voice calling, and online meetings.</li><li>Communicate with email messages.</li><li>Schedule meetings and appointments.</li></ul>",
+                "Microsoft Teams and Microsoft Exchange",
+                ""
+            ],
+            "guid": "J8Un(Q<fS]",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>The manager needs a tool that supports employees creating and managing tasks. The tool must meet these requirements:</div><ul><li>Create repeatable tasks.</li><li>Create named task lists.</li><li>Mark a task as important.</li><li>View tasks based on due date.</li><li>Schedule task reminders.</li></ul>",
+                "Microsoft To Do",
+                ""
+            ],
+            "guid": "BFf;F6T+V+",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>A company uses Microsoft OneDrive to collaborate on documents.</div><div>The chief security officer (CSO) states there may be a security issue based upon how the system displays file recommendations for users.<br>What service should you identify?</div>",
+                "Microsoft Graph",
+                ""
+            ],
+            "guid": "N0,j|B_9Ho",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "This service provides employees access to knowledge and expertise from various Microsoft 365 resources",
+                "Viva Topics",
+                ""
+            ],
+            "guid": "bGQcU~W6ty",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "This service has an AI feature that automatically creates the pages in specific knowledge areas and displays relevant individuals to these areas",
+                "Viva Topics",
+                ""
+            ],
+            "guid": "k<IvYKb~:z",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "This service is an enterprise social network that connects leaders, communicators, and employees together to share knowledge",
+                "Viva Engage",
+                ""
+            ],
+            "guid": "Bj`WD0wTd.",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "This service is a cloud library for file storage and sharing",
+                "OneDrive",
+                ""
+            ],
+            "guid": "q(ceR_e$vH",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "This service gives insights and recommendations to individuals to boost productivity and wellbeing by suggesting focus times, tasks to be completed, and mindful disconnection from work",
+                "Viva Insights",
+                ""
+            ],
+            "guid": "FMd(YLBm%2",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "New name for MyAnalytics",
+                "Viva Insights",
+                ""
+            ],
+            "guid": "uo#{<68n.s",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "New name for Yammer",
+                "Viva Engage",
+                ""
+            ],
+            "guid": "gK*f3@OOL<",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>The solution must be able to:</div><ul><li>Provide secure communication with users across multiple departments in the same organization.</li><li>Limit access to company employees with a valid email address.</li><li>Support communication through a dedicated desktop application.</li><li>Support for playing videos in-line and for automatic generation of transcriptions with Microsoft Stream.</li></ul>",
+                "Microsoft Viva Engage internal network",
+                ""
+            ],
+            "guid": "iFd.AunD6U",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Name three solutions for the following:<br><div>The Sales team and Customer Support team need to be able to collaborate on documents together, editing, and commenting in real time.</div>",
+                "Microsoft Sharepoint, Microsoft Teams, Microsoft OneNote",
+                ""
+            ],
+            "guid": "iD},]z/wrW",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "This service provides the capability to share a notebook, insert linked files, and real-time editing",
+                "OneNote",
+                ""
+            ],
+            "guid": "O<5E6aoy.o",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "This service provides an intranet site for sharing files and real-time editing",
+                "SharePoint",
+                ""
+            ],
+            "guid": "ufu<N++]Ct",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "This service provides the capability to set up a team with channels for specific people to share files and real-time editing",
+                "Microsoft Teams",
+                ""
+            ],
+            "guid": "zDJl~%%NcQ",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "This service is a scheduling tool",
+                "Bookings",
+                ""
+            ],
+            "guid": "kCBXO,@fSv",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>The company needs to implement a Cloud PC solution for 600 employees.</div><div>The solution must meet the following requirements:</div><ul><li>Fixed fee-based pricing model.</li><li>Full integration with Microsoft Intune by default.</li><li>Ability to be provisioned with custom images.</li></ul>",
+                "Windows 365 Enterprise",
+                "<ul><li>Windows 365 Business is for small enterprises with up to 300 Cloud PCs</li><li>Azure Virtual Desktop and Azure Virtual Machine have a flexible consumption-based pricing model<br></li></ul>"
+            ],
+            "guid": "ioNUl!Ator",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>You need to recommend a solution that meets the following requirements:</div><ul><li>Flexible consumption-based pricing model.</li><li>Provide Windows 7 virtual desktops with free extended security updates.</li><li>Ability to use FSLogix profile container technology.</li></ul><div>Which Desktop-as-a-Service solution should you recommend?</div>",
+                "Microsoft Azure Virtual Desktop (AVD)",
+                "AVD provides FSLogix"
+            ],
+            "guid": "MTL5{rdbE]",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>You need to recommend a solution that provides:</div><ul><li>Virtualized desktops for use by employees.</li><li>Consumption-based pricing.</li></ul>",
+                "Microsoft Azure Virtual Desktop",
+                "AVD provides consumption-based pricing"
+            ],
+            "guid": "d*[T#i6]-W",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>The company needs a solution that can intelligently and securely manage the pre-configuration and set-up of new devices.</div><div>You need to recommend a service that meets the following requirements:</div><ul><li>Support Windows 10 and 11.</li><li>Simplify the lifecycle management of the devices.</li><li>Integrate the devices with existing device and application management solutions.</li></ul>",
+                "Windows Autopilot",
+                "Not as complicated as configuration manager"
+            ],
+            "guid": "HW81*~RX1J",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Name a solution: The company needs to automatically generate a daily email to each employee informing them about the following:</div><ul><li>Outstanding commitments and pending follow-ups to emails from other employees.</li><li>Documents related to the employee's meetings scheduled on that day.</li></ul>",
+                "Microsoft Viva Personal Insights",
+                ""
+            ],
+            "guid": "Q6`SMPEOpE",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><div>The company needs to use Microsoft 365 products more efficiently.</div><div>You need to recommend an analytics solution.</div><div>Which solution should you recommend?</div></div>",
+                "productivity score report",
+                "The productivity score report provides specific recommendations to use M365 more efficiently"
+            ],
+            "guid": "(9Y)VnV5m",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div style=\"text-align: left;\">The company wants to help employees find a balance between productivity and well-being.</div><div style=\"text-align: left;\">You need to recommend a solution that allows the identification of teams' work patterns that could lead to burnout.</div><div><div style=\"text-align: left;\">Which solution should you recommend?:</div><ul><li>Personal Insights feature of Microsoft Viva Insights</li><li>Manager Insights feature of Microsoft Viva Insights</li><li>Microsoft 365 Usage Reports</li><li>Security Report in the Microsoft 365 Defender admin center<br></li></ul></div>",
+                "Manager Insights feature of Microsoft Viva Insights",
+                "work patterns for the entire team"
+            ],
+            "guid": "vE[6q?fp;b",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which solutions provides employee analytics to business leaders?",
+                "Microsoft Viva Organizational Insights",
+                ""
+            ],
+            "guid": "Fs?(k^02`~",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::FastTrack}} is a support option to drive user adoption of Microsoft 365 services.",
+                ""
+            ],
+            "guid": "BIhm/&(Y(|",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Microsoft Unified}} is a support option that provides a dedicated account manager.",
+                ""
+            ],
+            "guid": "o^fs8GY-3T",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "With less than {{c1::99.9%}} uptime you are eligible for a {{c2::25%}} service credit",
+                ""
+            ],
+            "guid": "E3Ht4]sRe{",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "If you suspect there is a service issue with Office Online, you should check the {{c1::Health}} Microsoft 365 admin center",
+                ""
+            ],
+            "guid": "}RGGWkx#w",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A Teams {{c1::Live Event}} can accomodate up to {{c2::20,000}} participants, with screen sharing support for up to {{c3::1,000}} participants.",
+                ""
+            ],
+            "guid": "sI=d+f&.]!",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A Teams Webinar can support up to {{c1::1,000}} participants",
+                ""
+            ],
+            "guid": "tXwr;A}&#l",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "If you want to hold an interactive Q&amp;A you need to host a Teams {{c1::Live Event}}",
+                ""
+            ],
+            "guid": "kns7xE0qU}",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "With less than {{c1::99.5%}} you are eligible for a {{c2::50%}} service credit",
+                ""
+            ],
+            "guid": "Hd@z:9!&V-",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "With less than {{c1::95%}} uptime you are eligible for a {{c2::100%}} service credit",
+                ""
+            ],
+            "guid": "d=Zw+IFzT^",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which billing frequency should you use to minimize the frequency of billing:<br><ul><li>Monthly</li><li>Quarterly</li><li>Semiannual</li><li>Annual<br></li></ul>",
+                "Annual",
+                ""
+            ],
+            "guid": "i`I;:7TxwM",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "If a business doesn't already have any Microsoft Office license they should get the {{c1::Full}} user subscription license (USL).j",
+                ""
+            ],
+            "guid": "ge-rt>%8Gt",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "If a business already has a non-volume Microsoft Office license they should get the {{c1::Add-on}} user subscription license (USL).",
+                ""
+            ],
+            "guid": "obROd4yR#}",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "If a business already has a Microsoft Office license which doesn't have Software Assurance (SA) they should get the {{c1::Add-on}} user subscription license (USL).",
+                ""
+            ],
+            "guid": "pmC?H]U.y.",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "If a business already has a volume Microsoft Office license they should get the {{c1::From SA}} user subscription license (USL).",
+                ""
+            ],
+            "guid": "yt:Vh+9YGe",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "If a business already has a Microsoft Office license which has Software Assurance (SA) they should get the {{c1::From SA}} user subscription license (USL).",
+                ""
+            ],
+            "guid": "iP|xag.oS.",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "If a business upgrade a Microsoft 365 license (e.g. Business to Enterprise) they should get a {{c1::Step up}} user subscription license (USL).",
+                ""
+            ],
+            "guid": "Nn{Q|7)op-",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The Sales team and Customer Support team need to be able to collaborate on documents together, editing, and commenting in real time.<br>They can use {{c1::Microsoft Sharepoint}}, {{c2::Microsoft Teams}}, and {{c3::Microsoft OneNote}}",
+                ""
+            ],
+            "guid": "u9F3$]S(Yk",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Community-based support}} is a best-effort support offered by other users of Microsoft Services.",
+                ""
+            ],
+            "guid": "r#^O1v1Hsr",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Pre-sales support}} provides&nbsp;assistance on subscription features, benefits, and your purchasing decision for Microsoft 365 services.",
+                ""
+            ],
+            "guid": "HGCMtS7]+j",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "if your organization has purchased a Microsoft 365 subscription through a cloud services provider (CSP), they'll receive direct support from&nbsp;{{c1::a Microsoft Partner (the CSP)}}",
+                ""
+            ],
+            "guid": "J+ad|h)V,M",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>The company has concerns about the encryption and classification of information and removal of Shadow IT in the organization.</div><div><br></div><div>So you should recommend the {{c1::Data}} and {{c2::Applications}} Zero Trust methodology pillar solutions.</div>",
+                ""
+            ],
+            "guid": "c[m`m~oUNu",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The six foundational pillars of the Zero Trust model are:<br><ul><li>{{c1::Identities}}</li><li>{{c2::Devices}}</li><li>{{c3::Applications}}</li><li>{{c4::Data}}</li><li>{{c5::Infrastructure}}</li><li>{{c6::Networks}}</li></ul>",
+                ""
+            ],
+            "guid": "IOu^T{95L-",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In the Zero Trust model, {{c1::Data}} should be classified, labeled, and encrypted based on its attributes. Security efforts are ultimately about protecting {{c1::data}}, and ensuring it remains safe when it leaves devices, applications, infrastructure, and networks that the organization controls.",
+                ""
+            ],
+            "guid": "o1+QQ@+*i.",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In the Zero Trust model: {{c1::Identities}} may be users, services, or devices. When an {{c1::identity}} attempts to access a resource, it must be verified with strong authentication, and follow least privilege access principles.",
+                ""
+            ],
+            "guid": "B4$9v*iz$V",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In the Zero Trust model: {{c1::Devices}} create a large attack surface as data flows from {{c1::devices}} to on-premises workloads and the cloud. Monitoring {{c1::devices}} for health and compliance is an important aspect of security.",
+                ""
+            ],
+            "guid": "n_k#tlVKp`",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In the Zero Trust model: {{c1::Applications}} are the way that data is consumed. This includes discovering all {{c1::applications}} being used, sometimes called Shadow IT because not all {{c1::applications}} are managed centrally. This pillar also includes managing permissions and access.",
+                ""
+            ],
+            "guid": "M[90@`{$ua",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In the Zero Trust model: {{c1::Infrastructure}}, whether on-premises or cloud based, represents a threat vector. To improve security, you assess for version, configuration, and JIT access, and use telemetry to detect attacks and anomalies. This allows you to automatically block or flag risky behavior and take protective actions.",
+                ""
+            ],
+            "guid": "D~Xnwo5?lJ",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In the Zero Trust model: {{c1::Networks}} should be segmented, including deeper {{c1::in-network}} micro segmentation. Also, real-time threat protection, end-to-end encryption, monitoring, and analytics should be employed.",
+                ""
+            ],
+            "guid": "wux~6vh^MJ",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><div>The company expresses the need to adopt the concept of assumed breach and mitigate it.</div><div>You need to recommend the access type to implement.</div><div>Which access should you recommend?</div></div><ul><li>external firewalls</li><li>just-in-time access</li><li>network segmentation</li></ul>",
+                "Network segmentation",
+                "External firewalls are not considered sufficient in the context of the principle of assumed breach since they are based on the premise that the breach has not taken place yet.<br><br>Just-in-time access is part of the implementation of the least privileged access principle."
+            ],
+            "guid": "J<D2Taamn|",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>The company needs real-time policy evaluation to involve access control through segmentation.</div><div>You need to recommend the primary component of the Zero Trust model that needs to be configured.</div><div>Which primary component do you recommend?</div><div><ul><li>Apps</li><li>Devices</li><li>Infrastructure</li><li>Network<br></li></ul></div>",
+                "Network",
+                "Network-based protection relies on such components as internal segmentation and micro-segmentation.<br><br><div>Infrastructure-based protection relies on such components as just-in-time (JIT) and version control.</div>"
+            ],
+            "guid": "v]e!OFGePl",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Device}}-based protection relies on {{c1::device}} risk and compliance state.",
+                ""
+            ],
+            "guid": "lAU-g/2_$l",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>{{c1::Infrastructure}}-based protection relies on such components as just-in-time (JIT) and version control.</div>",
+                ""
+            ],
+            "guid": "n_rJG,p:S4",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Network}}-based protection relies on such components as internal segmentation and micro-segmentation.",
+                ""
+            ],
+            "guid": "j%&I!:>47+",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A federated service uses a {{c1::Trust}} relationship to access resources.",
+                ""
+            ],
+            "guid": "QV{wziF$9/",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><div>The user signs in once and can then access many applications or resources using {{c1::Single Sign-On (SSO)}}</div></div>",
+                ""
+            ],
+            "guid": "D2ooAm`8Y@",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><div>The company needs to allow external sharing with partners and vendors. The company requires the default configuration available to achieve this goal.</div><div>You need to recommend a cloud identity provider.</div><div>Which two providers should you recommend?</div></div><ul><li>Facebook</li><li>Active Directory</li><li>Microsoft Entra ID</li><li>Microsoft Account</li></ul>",
+                "Microsoft Entra ID and Microsoft Account",
+                "Facebook cannot be used for external collaboration invitations.<br>Active Directory is on-prem, cannot be used for external sharing (and it isn't cloud-based)"
+            ],
+            "guid": "oHV/n7Cq!y",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>A company currently uses Microsoft Active Directory. Which functionality requires Microsoft Entra ID?:</div><div><ul><li>Support for modern authentication.</li><li>Support for single sign-on.</li><li>Ability to create user objects.</li><li>Ability to create computer objects.</li></ul></div>",
+                "Support for modern authentication",
+                ""
+            ],
+            "guid": "ukF|r1.qJa",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What process verifies if a username and password combination is correct?:<br><ul><li>Authentication</li><li>Authorization</li><li>Zero Trust</li><li>Shared responsibility model</li></ul><div></div><div></div><div></div>",
+                "Authentication",
+                "Authorization is to permit access to a resource<br>Authentication is used to verify identity"
+            ],
+            "guid": "t8BT;rZYM1",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>The company needs to strengthen the protection of Microsoft 365 apps.</div><div>You need to recommend a solution that includes the following requirements:</div><ul><li>Additional authentication factors.</li><li>Evaluate user-based risks.</li></ul><div>Which solution should you recommend?</div><div><ul><li>Adaptive access</li><li>Microsoft Entra ID conditional access</li></ul><div></div></div>",
+                "Microsoft Entra ID conditional access",
+                "Microsoft Entra ID conditional access includes support for multi-factor authentication and user-based risk evaluation as part of its gated controls.<br>Adaptive access is part of cloud app security, which does not provide evaluation of user-based risks."
+            ],
+            "guid": "cx~hy.br+V",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><div>A company implements Microsoft 365.</div><div>The company has a new remote work policy for employees.</div><div>You need to recommend a solution that meets the following requirements:</div><ul><li>Employees can only access company resources from specific locations.</li><li>Extra authentication factors are included.</li></ul><div>Which solution should you recommend?</div></div><div><ul><li>Just-in-time (JIT)</li><li>Conditional Access</li><li>Federation</li><li>Micro-segmentation</li></ul><div></div><div></div></div>",
+                "Conditional Access",
+                ""
+            ],
+            "guid": "d=ARuPU|97",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><div>The company’s security team needs to understand threat signals for Microsoft 365 products and services. You need to recommend a solution that meets the following requirements:</div><ul><li>Provide the first line of defense in the stack.</li><li>Automated investigation and remediation of breaches.</li><li>Provide capabilities for network protection.</li></ul><div>Which solution should you recommend?</div></div><div><ul><li>Microsoft Defender for Office 365</li><li>Microsoft Defender for Endpoint</li><li>Microsoft Defender for Identity</li><li>Microsoft Defender for Cloud Apps</li></ul><div></div><div></div><div></div></div>",
+                "Microsoft Defender for Endpoint",
+                ""
+            ],
+            "guid": "qIA2qZbR]/",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Enclaves}} help mitigate security attacks on data within RAM or CPU caches",
+                ""
+            ],
+            "guid": "yZYo]EpP>@",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Enclaves}} use cryptography to create a secure lockbox that protects non-persistent data.",
+                ""
+            ],
+            "guid": "L%)1b9ontS",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Encryption at rest}} protects data stored at persistent storage such as disks and databases.&nbsp;",
+                ""
+            ],
+            "guid": "qa(k.+%D)s",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Hashing}} converts text to an exclusive value with a fixed length. It is used to verify authenticity of files and store passwords.&nbsp;",
+                ""
+            ],
+            "guid": "B/qsC=qmC0",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>{{c3::Public key infrastructure (PKI)}}, uses a {{c1::private key}} together with a {{c2::public key}}. It is often used for encryption in transit such as for HTTPS.</div>",
+                ""
+            ],
+            "guid": "kFr}[wYybn",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Microsoft Purview}} is the portal that serves as the primary source of Microsoft 365 compliance related information.",
+                ""
+            ],
+            "guid": "mcw`njvMgX",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Service Trust Portal (STP)}} is Microsoft's public site for publishing audit reports and other compliance-related information associated with Microsoft’s cloud services.",
+                ""
+            ],
+            "guid": "FR!/R{;h^C",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Service Trust Portal (STP)}} provides Reports, Whitepapers, and Artifacts related to compliance-related information associated with Microsoft’s cloud services.",
+                ""
+            ],
+            "guid": "BF`k3r%7L0",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Service Trust Portal (STP)}} provides Certifications, Regulations and Standards related to compliance-related information associated with Microsoft’s cloud services.",
+                ""
+            ],
+            "guid": "h29__f-qg?",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "the primary interface for Microsoft 365 compliance information is hosted by {{c1::Microsoft Purview}}",
+                ""
+            ],
+            "guid": "u4:.W#4dG~",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Users who try to access company apps outside the designated IP range must be blocked using the {{c1::Conditional Access}} feature in {{c2::Microsoft Entra ID}}",
+                ""
+            ],
+            "guid": "A&X?iZ)$Q0",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Conditional Access}} feature in {{c2::Microsoft Entra ID}} can restrict access based on user or group membership",
+                ""
+            ],
+            "guid": "AIzg6g:CFw",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Conditional Access}} feature in {{c2::Microsoft Entra ID}} can restrict access based on named location information",
+                ""
+            ],
+            "guid": "z[L@3v:m-`",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Conditional Access}} feature in {{c2::Microsoft Entra ID}} can restrict access based on device application",
+                ""
+            ],
+            "guid": "M-*|;s!Pk=",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Conditional Access}} feature in {{c2::Microsoft Entra ID}} can restrict access based on real-time risk detection",
+                ""
+            ],
+            "guid": "Do$zhD)2}]",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Conditional Access}} feature in {{c2::Microsoft Entra ID}} can restrict access based on user risks",
+                ""
+            ],
+            "guid": "Jvq%2F2@]?",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Conditional Access}} feature in {{c2::Microsoft Entra ID}} can restrict access based on cloud apps",
+                ""
+            ],
+            "guid": "gL1O]Zm|6G",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Conditional Access}} feature in {{c2::Microsoft Entra ID}} can restrict access based on user actions",
+                ""
+            ],
+            "guid": "fEJ83Wp~*E",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::User flows}} are used to create {{c3::sign in and sign-up policies}} for {{c2::external identities (Microsoft Entra ID B2C)}}.",
+                ""
+            ],
+            "guid": "DnPWbnx?Me",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Role-based access}} is used to assign a collection of permissions to a user.",
+                ""
+            ],
+            "guid": "yC&=zT#emF",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Secure Score}} can be used to set key performance indicators (KPIs) for the company’s security posture.",
+                ""
+            ],
+            "guid": "OR;~Og8oeY",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Companies can use {{c1::Secure Score}} to measure their current security posture across apps, identities, and devices.",
+                ""
+            ],
+            "guid": "umx1?!jClO",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Secure Score}} is one of the tools in the {{c2::Microsoft Defender}} portal. It shows the company’s current security posture.",
+                ""
+            ],
+            "guid": "Qnn3MN$%si",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft 365 {{c1::Defender}} portal is used to manage and monitor security across apps, data, identities, and infrastructure.",
+                ""
+            ],
+            "guid": "q9Pq?CxdfF",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Exchange}} admin portal is used to manage advanced email settings, such as quarantine, encryption, and mail flow rules.",
+                ""
+            ],
+            "guid": "Q$~${J%r_+",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::SharePoint}} admin center is used to manage sites, sharing, and storage for ‎SharePoint‎ and ‎OneDrive‎.",
+                ""
+            ],
+            "guid": "FsdF&;}|_t",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>The {{c1::Purview}} {{c2::compliance}} portal is used to help the company understand its compliance needs.</div>",
+                ""
+            ],
+            "guid": "EiQ,2{/,Yb",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Microsoft Defender offers several services to protect a company against cyberattacks. Each of the services protects against a specific type of attack.</div><div><ul><li>The service to use for email messages is Defender for {{c2::Office 365}}.</li><li>Defender for {{c3::Identity}} protects against compromised identities and malicious actions.&nbsp;</li><li>Defender for {{c4::Endpoint}} protects network endpoints such as compute devices.</li><li>Defender for {{c1::Cloud Apps}} is a cross– software as a service (SaaS) solution that intermediates the cloud user and the cloud provider.</li></ul></div>",
+                ""
+            ],
+            "guid": "z+HRF~0Z*e",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Viva {{c1::Topics}} provides access to knowledge and expertise from various Microsoft 365 resources.",
+                ""
+            ],
+            "guid": "xJ^da:-=>/",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::To Do}} manages a list on a day-to-day basis.",
+                ""
+            ],
+            "guid": "q/A}_=cqW|",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c1::Bookings}} provides an easy way to manage the scheduling of appointments.",
+                ""
+            ],
+            "guid": "qIq2%D+w(+",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c1::Project}} provides the ability to manage task dependencies, sub-tasks, dynamic scheduling and cost regardless of the team size across multiple departments.",
+                ""
+            ],
+            "guid": "Iv.=H?Q#|i",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c1::Project}} is a project management tool used for multiple composite projects.",
+                ""
+            ],
+            "guid": "kn*O3>~9v,",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c1::Bookings}} provides automated email and SMS notifications about upcoming appointments.",
+                ""
+            ],
+            "guid": "D,3TmCY}#.",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c1::Bookings}} Supports buffer times that automatically adjust staff schedules to account for activities required to prepare for meetings with customers",
+                ""
+            ],
+            "guid": "QH?ip!#yFV",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c1::Bookings}} integrates with Outlook, provides automated email and SMS notifications about upcoming appointments, and supports buffer times that automatically adjust staff schedules to account for activities required to prepare for meetings with customers.",
+                ""
+            ],
+            "guid": "J$v@Ai4#Os",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c2::Defender}} for {{c1::Office 365}} safeguards your organization against malicious threats posed by email messages, links (URLs), and collaboration tools.",
+                ""
+            ],
+            "guid": "rj8;}m=j=0",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c1::Defender}} for {{c2::Endpoint}} is an enterprise {{c2::endpoint}} security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats.&nbsp;",
+                ""
+            ],
+            "guid": "xeoC`}?3t3",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c1::Intune}} is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM).",
+                ""
+            ],
+            "guid": "ki}&p}hTx$",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Microsoft {{c1::Power Apps}} is a suite of apps, services, and connectors, as well as a data platform, which provides a rapid development environment to build custom apps for your business needs.</div>",
+                ""
+            ],
+            "guid": "D)}BCt~!Y`",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Publisher is a Microsoft 365 app that needs to be installed on a {{c1::local computer}} to be used by a licensed user.",
+                ""
+            ],
+            "guid": "J+/*fR-#=<",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><div>You need to recommend a solution that meets the following requirements:</div><ul><li>Users must be able to create pages that are accessible through shareable links for customers to schedule appointments.</li><li>Integrate with Microsoft Teams.</li></ul><div>Which solution should you recommend?</div></div><div><ul><li>To Do</li><li>Planner</li><li>Bookings</li><li>Microsoft Project</li></ul><div></div><div></div></div>",
+                "Bookings",
+                ""
+            ],
+            "guid": "Jx3S@O}v]i",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Microsoft {{c1::Project}} is a tool for complex work efforts. It is extensible with other apps, as it is built on the Power Platform. Views can be used for tasks using Kanban task boards and Gantt charts.</div>",
+                ""
+            ],
+            "guid": "zq3SU!$z{w",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In security features and settings for Exchange Online, you can use {{c1::Anti-malware protection}} to protect against Viruses attached to emails",
+                ""
+            ],
+            "guid": "s/n^QDNy~8",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In security features and settings for Exchange Online, you can use {{c1::<br>Anti-Spam policies}} to protect against Unsolicited emails",
+                ""
+            ],
+            "guid": "lpqXS_S=3x",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Anti-spoofing and anti-Spam policies are included with {{c1::Exchange Online Protection}}",
+                ""
+            ],
+            "guid": "qg*5AwU!lK",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Safe Links and Mailbox Intelligence are available with a {{c1::Microsoft Defender for Office 365}} subscription",
+                ""
+            ],
+            "guid": "P@=7k.mTr-",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Teams Private Channel supports a maximum of {{c1::250}} users and moderation of questions and answers",
+                ""
+            ],
+            "guid": "dr@bkeN-Yq",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "the number of attendees as a Teams Chat Video/Audio Call has a maximum of {{c1::20}} people",
+                ""
+            ],
+            "guid": "dXv=fc7w)Y",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>A company needs solutions that meet these requirements:</div><ul><li>Communicate with chat, voice calling, and online meetings.</li><li>Communicate with email messages.</li><li>Schedule meetings and appointments.</li></ul>So you suggest Microsoft {{c1::Teams}} and Microsoft {{c2::Exchange}}",
+                ""
+            ],
+            "guid": "c*pZ]q`,b)",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Viva {{c1::Connections}} provides a dashboard to access resources, view personalized tasks, communications, and news updates.",
+                ""
+            ],
+            "guid": "u/b%vC{i*Y",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Finding content in OneDrive is simplified through the {{c1::Graph}} application programming interface.",
+                ""
+            ],
+            "guid": "bLR/m-EU=+",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c1::Viva}} is an employee experience platform (EXP) that empowers people and teams to be their best",
+                ""
+            ],
+            "guid": "A#?.BgV&-g",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c1::Viva}} {{c2::Engage}} is a secure enterprise social network internal to an organization",
+                ""
+            ],
+            "guid": "f6,)<Iert.",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft Teams audio conferencing supports up to {{c1::1,000}} participants.",
+                ""
+            ],
+            "guid": "I2xH(L5&!h",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Teams {{c1::Webinars}} are presentations where only the first {{c2::1,000}} participants have full interactive capabilities and lack the definition of distinct roles",
+                ""
+            ],
+            "guid": "oWOEA`Q|9b",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In Microsoft Teams, {{c1::channels}} are dedicated sections within a team to organize conversations by topics or projects. {{c1::Channels}} can be standard or private. A private {{c1::channel}} is a subset of the teams' members that can communicate together.",
+                ""
+            ],
+            "guid": "o!(5ti[r2@",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Current}} Channel {{c1::(Preview)}} receives feature updates as soon as they are available",
+                ""
+            ],
+            "guid": "riTzXUlin1",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Monthly Enterprise}} Channel receives updates once a month on a predictable schedule",
+                ""
+            ],
+            "guid": "e48KV5wZ.N",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Semi-Annual Enterprise}} Channel {{c1::(Preview)}} receives updates every six months, a few months before these are made available to {{c2::Semi-Annual Enterprise Channel}}",
+                ""
+            ],
+            "guid": "J?lM]b-v@|",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is ODT?",
+                "Office Deployment Tool",
+                ""
+            ],
+            "guid": "Ky9.6H84,D",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "You can deploy Microsoft 365 apps from<br><ul><li>a local source or&nbsp;from the cloud using the {{c1::Office Deployment Tool (ODT)}}</li><li>from a local source using&nbsp;{{c5::Configuration Manager}}, or</li><li>using&nbsp;{{c6::Self-install from the cloud}}</li></ul>",
+                ""
+            ],
+            "guid": "rtg_8De#}S",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an update channel?",
+                "The frequency of feature updates to Microsoft 365 Apps",
+                ""
+            ],
+            "guid": "D$[e6BsAVo",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Azure Virtual Desktop}} is a virtual desktop which can integrate natively with support the pen and ink experience",
+                ""
+            ],
+            "guid": ")qlScIF&,",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Azure Virtual Desktop}} is a virtual desktop which can integrate natively with Surface biometric authentication",
+                ""
+            ],
+            "guid": "gI|JDbuUMx",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Azure Virtual Desktop}} supports multi-session Windows 10 and Windows 11 environments, allowing multiple users to share the same virtual machine.",
+                ""
+            ],
+            "guid": "Im]Oo,ofTR",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Windows 365}} charges a <strong>flat monthly fee</strong> based on the cloud PC's size and performance, while {{c2::Azure Virtual Desktop}} operates on a <strong>pay-as-you-go</strong> model, charging for compute, storage, and other Azure resources based on usage.",
+                ""
+            ],
+            "guid": "Bf}1g%lJnG",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Windows 365}} provides users with a dedicated cloud PC for each individual, while {{c2::Azure Virtual Desktop}} offers <strong>multi-session</strong> capabilities, allowing multiple users to share the same virtual machine.",
+                ""
+            ],
+            "guid": "sFf{K)5rj8",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Azure Virtual Desktop}} is ideal for <strong>customizable, dynamic workloads</strong> that require scaling based on demand, whereas {{c2::Windows 365}} is designed for <strong>consistent, persistent</strong> usage scenarios with simpler management needs.",
+                ""
+            ],
+            "guid": "IR<H~]$FYq",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In {{c1::Azure Virtual Desktop}}, administrators have more <strong>granular control</strong> over the infrastructure and can manage individual virtual machines, while {{c2::Windows 365}} abstracts much of the underlying infrastructure, offering a <strong>managed, streamlined experience</strong>.",
+                ""
+            ],
+            "guid": "qb;q>Zlo$M",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Windows 365 Enterprise}} supports <strong>unlimited users</strong> with centralized management and policy enforcement, while {{c2::Windows 365 Business}} is capped at <strong>300 users</strong>, making it more suitable for smaller organizations.",
+                ""
+            ],
+            "guid": "J*H#>WRHt7",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Microsoft Azure Virtual Desktop}} is able to optimize the user profile management by using FSLogix container technology.",
+                ""
+            ],
+            "guid": "zdn_@N:P7Y",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Windows Autopilot}} provides a customized OOBE that installs applications and configures settings required by the company and allows users to perform the installation, eliminating the need for IT staff to configure devices",
+                ""
+            ],
+            "guid": "yB%f=euo1o",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Feature}} updates&nbsp;add new functionality and are released twice a year",
+                ""
+            ],
+            "guid": "Q3=EOLfl89",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Quality}}<strong>&nbsp;updates</strong>&nbsp;provide security and reliability fixes",
+                ""
+            ],
+            "guid": "coWTRy1dg1",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Windows Insider Program}} is a Windows servicing channel that&nbsp;provides organizations with the opportunity to test and provide feedback on features that will be shipped in the next feature update",
+                ""
+            ],
+            "guid": "IfFV}@!|#F",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::General Availability Channel}} is a Windows servicing channel that receives functionality with feature update releases annually",
+                ""
+            ],
+            "guid": "l/6NJ|IR:i",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Long-term servicing channel}} is a Windows servicing channel that is designed for specialist systems and devices that don't run Office apps such as medical equipment or ATMs",
+                ""
+            ],
+            "guid": "Q(z*f2P(i/",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>{{c1::Deployment rings}} are a deployment method used to separate devices into a deployment timeline. Each “{{c1::ring}}” comprises a group of users or devices that receive a particular update together. IT administrators set criteria that should be met to control delay time or completion before deployment to the next broader ring of devices and users can occur.</div><div>A common {{c1::ring}} structure uses three deployment groups:</div><ul><li><div>{{c2::<strong>Preview</strong>&nbsp;}}is for planning and development.</div><ul><li>The purpose of the {{c2::preview}} ring is to evaluate the new features of the update.</li></ul></li><li><div>{{c3::<strong>Limited</strong>&nbsp;}}is for pilot and validation.</div><ul><li>The purpose of the {{c3::limited}} ring is to validate the update on representative devices across the network.</li></ul></li><li><div>{{c4::Broad}} is for wide deployment.</div><ul><li>Once the devices in the limited ring have had a sufficient stabilization period, it’s time for {{c4::broad}} deployment across the network.</li></ul></li></ul>",
+                ""
+            ],
+            "guid": "j~_JD]!77k",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Long-term servicing}}<strong>&nbsp;channel&nbsp;</strong>receives new features every two or three years",
+                ""
+            ],
+            "guid": "xCvLdLG=aZ",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::productivity score}} report provides specific recommendations that help organizations to use Microsoft 365 products more efficiently",
+                ""
+            ],
+            "guid": "O5U_+0#-Q>",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::usage}} report helps understand how people in the organization use Microsoft 365 services",
+                ""
+            ],
+            "guid": "jZA[w{<eA/",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Endpoint Manager}} admin center offers insights regarding the Endpoint Manager functionality, allowing for identifying status of devices used by people within the organization",
+                ""
+            ],
+            "guid": "K=Z]X}_Nnf",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Teams}} admin center offers insights regarding the Teams status, including user activity and device usage reports",
+                ""
+            ],
+            "guid": "qVtA^*oaxm",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Manager Insights}} in {{c2::Viva Insights}} allows users to understand patterns such as after-hours work, meeting overload, or too little focus time for teams",
+                ""
+            ],
+            "guid": "B:o4z;#zCu",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Personal Insights}} in {{c2::Viva Insights}} allows individuals to get actionable recommendations to improve work patterns, from the personalized {{c3::Viva Insights app}} in {{c4::Microsoft Teams}}",
+                ""
+            ],
+            "guid": "bDV4&1Ywvr",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Microsoft 365 Admin center}} displays the company’s productivity score, number of office activations, files stored, and Microsoft’s browser",
+                ""
+            ],
+            "guid": "dI=gbBIfxF",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Security - Microsoft 365 Defender}} admin center provides information about security trends and track the protection status of your identities, data, devices, apps, and infrastructure",
+                ""
+            ],
+            "guid": "f[j{q[Po^B",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Compliance - Microsoft Purview}} admin center allows you to view status and trends for the compliance of your Microsoft 365 devices, data, identities, apps, and infrastructure.",
+                ""
+            ],
+            "guid": "QVA;HkrM8P",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The&nbsp;{{c1::Microsoft Entra ID}} admin center allows you to view activity reports, which include registration and usage. These reports help you understand the behavior of users in your organization like registrations and sign-ins.",
+                ""
+            ],
+            "guid": "KD2$%5@9;U",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The&nbsp;{{c1::Exchange}} admin center allows you to view reports of email flow within your organization and mailbox migration batches created for your organization.",
+                ""
+            ],
+            "guid": "d8u^ce1$3m",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::SharePoint}} admin center allows you to view reports on the security and compliance of your data in SharePoint. These reports include sharing links to identify potential oversharing and sensitivity labels applied to files to monitor sensitive content.",
+                ""
+            ],
+            "guid": "q+[S`PuDv[",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Teams}} admin center allows you to view usage reports to gain insights and information on Teams usage. Your organization can use these reports to better understand usage patterns like how users are using Teams, and what devices they use to connect to Teams.",
+                ""
+            ],
+            "guid": ">GlW{W|;!",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The {{c1::Microsoft Entra ID}} cloud service is needed for company employees to access Microsoft 365 apps.",
+                ""
+            ],
+            "guid": "m#Evd@^_TW",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<ul>\n<li>{{c1::<b>Modern\n     deployment</b>}} methods grasp both traditional on-premises and cloud services\n     to deliver a streamlined, cost effective deployment experience.</li>\n<ul>\n<li>{{c2::<b>Windows\n      Autopilot</b>}}&nbsp;allows IT professionals to customize the out-of-box\n      experience (OOBE) for Windows PCs and provide end users with a fully\n      configured new Windows device. Users can go through the deployment\n      process independently, without the need to consult their IT\n      administrator.</li>\n<li>{{c3::<b>In-place\n      upgrade</b>}}&nbsp;provides a simple, automated process that uses the Windows\n      installation program to upgrade from an earlier version of Windows. This\n      process automatically preserves all data, settings, drivers, and\n      applications from the existing operating system version. In-place upgrade\n      requires the least IT effort, because there's no need for any complex\n      deployment infrastructure.</li>\n</ul></ul>",
+                ""
+            ],
+            "guid": "Q?+f2}uxW,",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<ul>\n<li>{{c4::<b>Dynamic\n     deployment</b>}} methods enable you to configure applications and settings for\n     specific use cases without having to deploy a new custom organization\n     image to the device.</li>\n<ul>\n<li>{{c5::<b>Subscription\n      activation</b>}}&nbsp;uses a subscription to switch from one edition of\n      Windows to another when a licensed user signs into a device. For example,\n      you can switch from Windows 10 Pro to Windows 10 Enterprise.</li>\n<li>{{c6::<b>Entra\n      ID joined with automatic mobile device management (MDM)\n      enrollment</b>}}&nbsp;automatically joins the device to {{c6::Entra ID}} and\n      is configured by {{c6::MDM}}. The organization member just needs to\n      provide their work or school user ID and password.</li>\n<li>{{c7::<b>Provisioning\n      package configuration</b>}}&nbsp;uses the {{c8::Windows Imaging and\n      Configuration Designer (ICD)}} tool. This tool is used to create\n      provisioning packages that contain all the configuration, settings, and\n      apps that can be applied to devices.</li>\n</ul></ul>",
+                ""
+            ],
+            "guid": "gpByMGcb+c",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<ul><li>The&nbsp;{{c1::<b>Microsoft Customer Agreement (MCA)</b>}} billing account type provides licenses through {{c2::an authorized partner}}<br></li><li>The&nbsp;{{c3::<b>Microsoft Online Services Program (MOSP)</b>}} billing account type is sold through {{c4::Microsoft directly}}</li><li>The {{c5::<b>Microsoft&nbsp;Products &amp; Services Agreement (MPSA)</b>}} billing account type provides {{c6::volume licenses sold by Microsoft}}</li></ul>",
+                ""
+            ],
+            "guid": "KsaCk3@e6e",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Modern}} Windows deployment methods include:<br><ul><ul><li>{{c2::Windows Autopilot}}</li><li>{{c3::In-place upgrade}}</li></ul></ul>",
+                ""
+            ],
+            "guid": "b_496XvX-Q",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c8::Traditional}} Windows&nbsp;deployment methods include:<br><ul><li>{{c9::New computer}}<br></li><li>{{c10::Computer refresh}}<br></li><li>{{c11::Computer replace}}</li></ul>",
+                ""
+            ],
+            "guid": "sXOZ&.|+qh",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c4::Dynamic}} Windows deployment methods include:<br><ul><li>{{c5::Subscription activation}}</li><li>{{c6::Entra ID joined with automatic mobile device management (MDM)}}</li><li>{{c7::Provisioning package configuration}}</li></ul>",
+                ""
+            ],
+            "guid": "K=,!|0r`_U",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Serverless computing}} is a cloud model that supports app development by carrying out the setup, capacity planning, and server management needed for applications that have event-based triggering mechanisms. {{c1::Serverless}} computing is driven by reactions to events and triggers that happen in near real-time in the cloud to deploy additional services.",
+                ""
+            ],
+            "guid": "z.QTvM<~qD",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::<b>Platform-as-a-Service (PaaS)</b>}} is a cloud model that supports deploying applications through a development, quality assurance, and production lifecycle. {{c1::PaaS}} allows developers to create web or mobile applications without having to worry about the underlying server architecture.",
+                ""
+            ],
+            "guid": "mHE!Hfd&hC",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::<b>Infastructure-as-a-Service (IaaS)</b>}}&nbsp;is a cloud model that is used to support the deployment of virtual machines (VMs) based on Microsoft or Linux operating systems into a cloud-managed service. An {{c1::IaaS}} platform supports scalability and elasticity in response to resource consumption.",
+                ""
+            ],
+            "guid": "uFM-&v+F=D",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Software-as-a-Service (SaaS)}} is a cloud model that helps application providers to deliver on-demand applications that are usually based on subscriptions to end users. Users generally connect to the application by using a browser or mobile device.",
+                ""
+            ],
+            "guid": "e#Ys0[qNeZ",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Viva Insights provides information about network data traffic patterns and server use to identify potential bottlenecks.<br>True or False?&nbsp;",
+                "False",
+                ""
+            ],
+            "guid": "wQ/2lFrHH<",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Viva Insights provides information about how groups collaborate both within an organization and externally with other groups.<br>True or False?",
+                "True",
+                ""
+            ],
+            "guid": "HaKvpIt|}l",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Viva Insights provides the manager with information about how individual employees spend their time and who they work with. True or False?&nbsp;",
+                "False",
+                "Viva Insights does not provide the manager with personal information about how individual employees spend their time and who they work with. Individuals can never be identified thanks to differential privacy."
+            ],
+            "guid": "k/d0we:j&u",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Microsoft 365 {{c1::Business Basic}} is a plan which\nprovides:</div>\n<ul>\n<li>For\n     up to {{c2::300}} employees.</li>\n<li>{{c3::Web and mobile}}j versions of Word, Excel, PowerPoint, and Outlook</li><li>Teams, OneDrive, SharePoint, Exchange</li></ul>",
+                ""
+            ],
+            "guid": "wG$:/zoJN(",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Microsoft 365 {{c1::Business Standard}} is a plan which\nprovides:</div>\n<ul>\n<li>For\n     up to {{c2::300}} employees.</li>\n<li>Desktop\n     versions of Word, Excel, PowerPoint, and Outlook</li><li>Teams, OneDrive, SharePoint, Exchange</li></ul>",
+                ""
+            ],
+            "guid": "h$2VmzLqP,",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Microsoft 365 {{c1::Business Premium}} is a plan which provides:</div>\n<ul>\n<li>For\n     up to {{c2::300}} employees.</li>\n<li>Desktop\n     versions of Word, Excel, PowerPoint, and Outlook</li>\n<li>Teams,\n     OneDrive, SharePoint, Exchange, Entra ID, Intune, Defender, Purview</li></ul>",
+                ""
+            ],
+            "guid": "v<D:7Pko[!",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Microsoft 365 {{c1::Apps for business}} is a plan which provides:</div>\n<div><ul><li>For up to {{c2::300}} employees.</li><li>Desktop versions of Excel, Powerpoint, and\nOutlook</li></ul></div>",
+                ""
+            ],
+            "guid": "whh9Nub#RA",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Microsoft 365 {{c2::E3}}<b>&nbsp;</b>is a plan which provides:</div>\n<ul>\n<li>{{c3::Desktop}}\n     versions of Word, Excel, PowerPoint, and Outlook </li>\n<li>OneDrive,\n     SharePoint, Exchange, OneNote, Publisher, Access</li><li>Planner, To Do, Bookings, Viva, Lists, Forms, Sway,\nVisio, Loop, Stream, Power Apps and Automate, Entra ID {{c1::P1}}</li></ul>",
+                ""
+            ],
+            "guid": "j#.0X5{3c{",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Microsoft 365 {{c2::E5}}<b>&nbsp;</b>is a plan which provides:</div>\n<ul>\n<li>{{c4::Desktop}}\n     versions of Word, Excel, PowerPoint, and Outlook </li>\n<li>OneDrive,\n     SharePoint, Exchange, OneNote, Publisher, Access</li>\n<li>{{c3::Power\n     BI}}, Planner, To Do, Bookings, Viva, Lists, Forms, Sway, Visio, Loop, Stream,\n     Power Apps and Automate, Entra ID {{c1::P2}}</li>\n<li>Defender\n     XDR, for Endpoint, Identity, Cloud Apps, Office 365 Plan 2</li>\n<li>Purview\n     eDiscovery, Purview Insider Risk Management</li></ul>",
+                ""
+            ],
+            "guid": "xx38IQ6+o4",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><b>Microsoft 365&nbsp;</b>{{c1::F3}}<b>&nbsp;</b>is a plan which provides:</div>\n<ul>\n<li>{{c2::Web\n     and mobile}} versions of Word, Excel, PowerPoint, and Outlook </li>\n<li>Teams,\n     OneDrive, SharePoint, Exchange, OneNote, Publisher, Access</li>\n<li>Planner,\n     To Do, Bookings, Viva, Lists, Forms, Sway, Visio, Stream, Power Apps and\n     Automate, Entra ID {{c3::P1}}</li></ul>",
+                ""
+            ],
+            "guid": "yLy>YTafbl",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "the {{c1::Email apps}} usage report displays the number of users per email app. The report tabulates usage for any of the Microsoft 365 supported email clients and protocols, including Outlook, Outlook on the web, and other clients.",
+                ""
+            ],
+            "guid": "M9GLy{yU_s",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "the {{c1::Microsoft 365}} usage report displays statics for general Microsoft 365 usage, including the number of active users.",
+                ""
+            ],
+            "guid": "x{CnZUgh)*",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "the {{c1::Mailbox}} usage report focuses primarily on storage-related statistics and can be used for tasks such as viewing the number of users who are reaching their mailbox quota limits.",
+                ""
+            ],
+            "guid": "EL&34oRStK",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "the {{c1::Microsoft 365 Apps}} usage report allows you to view usage for primary Microsoft 365 apps such as Outlook, Word, Excel, Teams, and others.",
+                ""
+            ],
+            "guid": "Do6C,ni1}?",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>The goal of Microsoft Entra {{c1::registered}} - also known as Workplace joined - devices is to provide your users with support for bring your own device (BYOD) or mobile device scenarios. In these scenarios, a user can access your organization's resources using a personal device.</div>",
+                ""
+            ],
+            "guid": "e4e<Te3<h4",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft Entra {{c1::joined devices}} are joined only to Microsoft Entra ID requiring organizational account to sign in to the device",
+                ""
+            ],
+            "guid": "I0)wSrC=dd",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft Entra {{c1::hybrid joined}} devices are joined to on-premises Microsoft Windows Server Active Directory and Microsoft Entra ID requiring organizational account to sign in to the device",
+                ""
+            ],
+            "guid": "hwE@BE?7Et",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Entra ID joined or hybrid-joined devices can use Windows 11 or Windows 10 except {{c1::Home editions}}",
+                ""
+            ],
+            "guid": "q?M0-qI85M",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Enabling MFA}} is the security control that has the most number of points, 10 points, that can contribute to your {{c2::Secure Score}} in the Microsoft {{c3::Defender}} portal",
+                ""
+            ],
+            "guid": "cZcx=`]P%9",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Service Requests can be managed using the following roles:<br>{{c1::Global}} admin, {{c2::Helpdesk}} admin, {{c3::User}} admin, {{c4::Billing}} admin<br>Note the {{c3::User}} admin role can not created service requests.",
+                ""
+            ],
+            "guid": "hPC%zlVx2}",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Microsoft Word}} can help you create documents and improve your writing with built-in intelligent features like Editor to help with editing, and Researcher to help find sources and bibliography creation.",
+                ""
+            ],
+            "guid": "M^T-UvkWu9",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Microsoft Bookings}} is a web-based appointment scheduling and management system.",
+                ""
+            ],
+            "guid": "ty7mAZKr6<",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Outlook}} is an email messaging app that allows you to have your emails, calendar appointments, and contacts all in one place, wherever you go.",
+                ""
+            ],
+            "guid": "v9nr6.g3vy",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Microsoft OneDrive}} is a cloud storage service that allows users to store and share files online.",
+                ""
+            ],
+            "guid": "A+%:la:a,B",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Microsoft 365 Copilot}} uses large language models (LLMs) and integrates data with Microsoft Graph and Microsoft 365 apps and services to provide real-time intelligent assistance to enhance creativity, productivity, and skills.",
+                ""
+            ],
+            "guid": "E`~g(g,Aqg",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Viva {{c1::Learning}} is a centralized learning hub in Microsoft Teams that lets you seamlessly integrate learning and building skills into your day.",
+                ""
+            ],
+            "guid": "CsQ^3!wird",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Microsoft Viva}} is an integrated employee experience platform powered by Microsoft 365 and designed for everyone to connect, learn, and grow.",
+                ""
+            ],
+            "guid": "H35N0EM!J",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Windows 365 and Azure Virtual desktop are both what type of service?",
+                "Desktop-as-a-Service (DaaS)",
+                ""
+            ],
+            "guid": "KHNaw]WH+d",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><div><div>If your organization requires frequent feature updates for Microsoft 365 Apps on a predictable release schedule, which update channel is best?:</div><ul><li>Current Channel</li><li>Monthly Enterprise Channel</li><li>Semi-Annual Enterprise Channel</li></ul></div></div><div></div><br>",
+                "Monthly Enterprise Channel",
+                "Current Channel receives feature updates at least once a month, but there's no set schedule for when those updates are released.<br>Monthly Enterprise Channel receives feature updates once a month, on the second Tuesday of the month."
+            ],
+            "guid": "ipZML&eC~z",
+            "note_model_uuid": "e4ff9377-da8a-11ef-947f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>There are two types of reports available in the admin center:</div><ul><li><div>{{c1::Adoption}} score: provides insights into your organization's digital transformation journey through Microsoft 365, including:</div><ul><li>{{c2::People}} experiences. Quantifies how the organization works using Microsoft 365 categories like content collaboration, mobility, communication, meetings and teamwork.</li><li>{{c3::Technology}} experiences. Quantifies how reliable and well-performing the technology is and the efficient use of Microsoft 365. These insights can be viewed through {{c5::Endpoint analytics}} and {{c6::network connectivity}}.</li></ul></li><li><div>{{c4::Usage}} reports help you see how users are using Microsoft 365 apps and services across your organization.</div></li></ul><br>",
+                ""
+            ],
+            "guid": "c2D=g`&St>",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Live Events can be broadcasted using:<br>{{c1::Microsoft Stream}}, {{c2::Microsoft Teams}}, or {{c3::Viva Engage}}",
+                ""
+            ],
+            "guid": "B!#rrR2ps8",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The two PC only apps provided with a Microsoft 365 Enterprise license include Microsoft {{c1::Publisher}} and Microsoft {{c2::Access}}",
+                ""
+            ],
+            "guid": "ChhOCSA}Y,",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft {{c1::Priva}} helps companies achieve their {{c2::data privacy}} and GDPR goals. It provides two solutions that help to support this; Priva {{c3::Privacy Risk Management}} provides visibility into the company’s data and policy templates to reduce risks and Priva {{c4::Subject Rights Requests}} provides workflow tools for fulfilling data requests.",
+                ""
+            ],
+            "guid": "bu[8}M_5|B",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Invoices and billing statements can be viewed from {{c1::Microsoft 365 admin center}}.",
+                ""
+            ],
+            "guid": "z9MFx9$)%h",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A billing account is created when a company signs up for Microsoft 365. The company can use one of three types of billing accounts. The company creates a {{c1::Microsoft Customer Agreement (MCA)}} when it signs up through a partner. {{c2::Microsoft Online Services Program}} accounts are created when the company subscribes directly. {{c3::Microsoft Products &amp; Services Agreement Program (MPSA)}} accounts are created when the purchase is done through a {{c4::Volume}} Licensing agreement.",
+                ""
+            ],
+            "guid": "IY,lY:JZm$",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Microsoft 365 is licensed through subscription-based licenses, called {{c1::user subscription licenses}} (USLs). Microsoft offers four types of these, covering different existing licensing situations.<br><ul><li>For companies that already have some on-premises licenses and want to extend their presence to Microsoft 365, the appropriate license type is the {{c2::Add-on}} USL.</li><li>A {{c3::Full}} USL is meant for new customers with no Microsoft licenses.</li><li>A {{c4::From SA}} USL is for customers who are covered by Software Assurance and want to transition to the cloud.</li><li>A {{c5::Step Up}} USL is intended to upgrade existing service levels.</li></ul>",
+                ""
+            ],
+            "guid": "MRX*iax6L[",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A Teams {{c1::Channel}} is a dedicated section within a team to organize conversations by topics or projects",
+                ""
+            ],
+            "guid": "n^kV/2YB;v",
+            "note_model_uuid": "e4ff93cb-da8a-11ef-869f-30138b6cca3b",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
